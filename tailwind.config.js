@@ -6,6 +6,7 @@ export default {
       brandBlue: "#141E35",
       brandLightBlue: "#1363DF",
       blueGray50: "#F8FAFC",
+      blueGray100: "#F1F5F9",
       blueGray200: "#E1E7EF",
       blueGray400: "#9EACC0",
       blueGray500: "#65758B",
@@ -20,7 +21,12 @@ export default {
       iconActive: "#F8FAFC",
       iconDefault: "#9EACC0",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        subtle: "0px 1px 2px 0px rgba(14, 24, 41, 0.05)",
+        solidGrey: "0px 0px 0px 1px rgba(158, 172, 192, 1);",
+      },
+    },
   },
   plugins: [],
 };

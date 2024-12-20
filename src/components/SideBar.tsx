@@ -13,7 +13,7 @@ const SideBar: React.FC = () => {
 
   return (
     <>
-      <aside className="h-screen w-16 bg-brandBlue fixed">
+      <aside className="h-screen w-16 bg-brandBlue static">
         <nav className="py-8">
           <ul className="flex flex-col gap-4 px-2">
             {sidebarItems.map((item) => (
