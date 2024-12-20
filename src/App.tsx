@@ -1,5 +1,6 @@
 import "./App.css";
 import Dashboard from "./components/Dashboard";
+// import FormModal from "./components/modal/FormModal";
 import SideBar from "./components/SideBar";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <SideBar />
         <Dashboard />
       </div>
+      {/* <FormModal /> */}
     </>
   );
 }
